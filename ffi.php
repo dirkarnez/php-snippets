@@ -1,4 +1,5 @@
 <?php
+// https://paiza.io/en/projects/new?language=php
 // create FFI object, loading libc and exporting function printf()
 $ffi = FFI::cdef(
     "int printf(const char *format, ...);", // this is a regular C declaration
